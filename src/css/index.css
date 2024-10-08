@@ -1,0 +1,356 @@
+@import "./home.css";
+@import "./forecast.css";
+@import "./results.css";
+@import "./profile.css";
+@import "./login.css";
+
+:root{
+  --color-main: #ffff;
+  --color-nav-hover: #EF5D93;
+  --color-text-small: #DFD5EE;
+  --color-btn-dark: #EF5D93;
+  --color-fill: #D0D1FF;
+  --color-lavender: #B899E6;
+  --color-title-dark: #5536AE;
+  --color-text: #808080;
+  --color-circle: #E0E0FF;
+  --color-btn-dark-hover: #50C8DE;
+  --color-forecast-title-small: #E9B0F3;
+  --color-card-results: #F3F3FF;
+
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+html{
+    font-size: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0 !important;
+    cursor: default;
+}
+h1, h2, h5, p{
+    cursor: default;
+}
+.wrapper{
+    min-height: calc(100vh - 15rem);
+}
+.header{
+    justify-content: space-between;
+    padding: 3rem 3rem 0 3rem;
+    color: var(--color-main);
+
+
+}
+.header__logo{
+    font-weight: 650;
+    text-decoration:none;
+    font-size: 2.7rem;
+    letter-spacing: 1px;
+    color: var(--color-main);
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.header__menu-link{
+    text-decoration:none !important;
+    color: var(--color-main);
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent !important;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.header__menu-link:hover{
+    color: var(--color-nav-hover);
+    transition: .4s;
+}
+.out{
+    color: rgba(233, 176, 243, 1);
+    background-color: rgba(184, 153, 230, 0.2) !important;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+.footer{
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+    background-image: url("../image/footer.png");
+}
+.footer__content{
+    padding-top: 8rem;
+    color: var(--color-main);
+}
+.footer__link{
+    text-decoration:none;
+    color: var(--color-main);
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .wrapper{
+        min-height: calc(100vh - 10rem);
+    }
+    .main{
+        max-height:50rem;
+    }
+    .header{
+        justify-content:start;
+        padding: 2rem 1rem 0 1.5rem;
+    }
+    .header__logo {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .header__menu-link{
+        font-size: 1rem;
+        margin-right: 0.5rem;
+    }
+    .stage{
+        padding: 5rem 0 6rem 1.5rem;
+    }
+    .stage__title{
+        max-width: 90%;
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+    .stage__text{
+        max-width: 60%;
+        margin-top:1.5rem;
+        font-size: 1rem;
+    }
+    .stage__actions{
+        margin-top: 2.5rem;
+    }
+    .button,
+    .button-light{
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
+    }
+    .advantages{
+        padding: 2rem 3rem;
+    }
+    .advantages__icons{
+        margin:0 1rem;
+        font-size: 3rem !important;
+    }
+    .col{
+        margin-top: 2rem !important;
+    }
+    .card-shadow{
+          padding: 0 1rem 0.5rem;
+          box-shadow: 0px 0px 15px 10px rgba(227, 227, 255, 1);
+    }
+    .card-title{
+        font-size: 1.5rem;
+        margin:0 1rem;
+        padding-top: 0;
+    }
+    .card-text{
+        font-size: 1.2rem;
+        margin:0 1rem;
+        padding-top: 0 ;
+    }
+    .about__text{
+        margin: 0 1rem;
+        padding-top: 9rem;
+    }
+    .about__img{
+        max-width: 80%;
+        padding: 0;
+    }
+   .description__title-small{
+        font-size: 1.3rem;
+        line-height:1.5rem;
+   }
+   .description__title-main{
+        font-size: 2.5rem;
+        line-height:2.5rem;
+   }
+   .description__text{
+        font-size: 1.2rem;
+        line-height: 2rem;
+   }
+   .about__icon{
+        font-size: 1.5rem;
+   }
+   .features__text{
+        margin: 3rem 2rem;
+   }
+   .circle {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 0.5rem;
+   }
+   .contacts{
+        padding-top: 2rem;
+   }
+   .contacts__text{
+        max-width: 100% !important;
+        margin: 0 1rem;
+   }
+   .contacts__img{
+        max-width:67%;
+        padding-top: 0;
+        margin: 0 6rem;
+   }
+   .contacts__icon{
+        font-size: 1.5rem;
+   }
+   .footer{
+        height: 7rem;
+   }
+   .footer__content{
+        padding-top: 3rem;
+   }
+   .out{
+        padding: 0.5rem 1rem;
+    }
+
+}
+
+/* Small Screens (Tablets) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+   .wrapper{
+        min-height: calc(100vh - 10rem);
+   }
+  .container{
+    max-width: 90% !important;
+  }
+  .header{
+        justify-content:start;
+        padding: 3rem 0 0 0;
+    }
+    .header__logo {
+        font-size: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    .header__menu-link{
+        font-size: 1.25rem;
+        margin-right: 2rem;
+    }
+    .stage{
+        padding: 11rem 0 0 0;
+    }
+    .stage__title{
+        font-size: 3.5rem;
+    }
+    .stage__text{
+        max-width: 70%;
+        margin-top:4rem;
+        font-size: 1rem;
+    }
+    .stage__actions{
+        margin-top: 4rem;
+    }
+    .button{
+        font-size: 1.25rem;
+        padding: 0.75rem 2rem;
+    }
+     .card{
+      padding: 0.5rem 1.5rem 2rem 1.5rem;
+      max-height: 95%;
+      margin: 1rem 0 0 0;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+    .card-text{
+        font-size: 1rem;
+        padding-top: 0;
+    }
+    .col{
+        padding: 1rem 0 0 2rem !important;
+    }
+    .description__title-small{
+        font-size: 1.3rem;
+        line-height:1.5rem;
+    }
+    .description__title-main{
+        font-size: 2.5rem;
+        line-height:2.5rem;
+    }
+    .description__text{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .about__img{
+        max-width: 100%;
+    }
+    .about__icon{
+        font-size: 1.5rem;
+    }
+    .features__text{
+         margin: 5rem 0 2rem 0;
+         padding-top: 3rem;
+    }
+    .circle {
+        width: 70px;
+        height: 70px;
+    }
+    .contacts__img{
+        max-width: 100%;
+        padding-top: 9rem;
+    }
+    .contacts{
+       padding-top: 7rem;
+    }
+    .footer{
+        height: 10rem;
+    }
+    .footer__content{
+        padding-top: 5rem;
+    }
+
+}
+
+/* Large Screens (Desktops) */
+@media only screen and (min-width: 993px) and (max-width: 1439px) {
+    .wrapper{
+        min-height: calc(100vh - 12rem);
+    }
+    .header{
+        padding: 3rem 0rem 0 2rem;
+    }
+    .header__logo {
+        font-size: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    .header__menu-link{
+        font-size: 1.25rem;
+        margin-right: 2rem;
+    }
+    .stage{
+        padding: 11rem 0rem 0rem 2rem;
+    }
+    .stage__title{
+        width:100%;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+     .stage__text{
+        max-width: 70%;
+        margin-top:3.5rem;
+        font-size: 1.4rem
+    }
+    .card{
+        padding: 1.5rem;
+    }
+    .col{
+        padding: 2rem 0 0 2rem !important;
+    }
+    .contacts__img{
+        max-width: 100%;
+        padding-top: 13rem;
+    }
+    .footer{
+        height: 12rem;
+        margin-top: 0rem;
+    }
+    .footer__content{
+        padding-top: 7rem;
+    }
+}
