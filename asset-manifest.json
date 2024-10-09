@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prevision-react-app/static/css/main.0b9e35b7.css",
-    "main.js": "/prevision-react-app/static/js/main.b43d993b.js",
+    "main.js": "/prevision-react-app/static/js/main.600d741e.js",
     "static/media/bg.png": "/prevision-react-app/static/media/bg.071cc82e10856e1a4722.png",
     "static/media/forecast.png": "/prevision-react-app/static/media/forecast.715e5473122fffce64f4.png",
     "static/media/prof.png": "/prevision-react-app/static/media/prof.62bdfde36bc5d3c56a8d.png",
@@ -15,10 +15,10 @@
     "static/media/exampleData.png": "/prevision-react-app/static/media/exampleData.f793dc8f5fc4774ded3c.png",
     "index.html": "/prevision-react-app/index.html",
     "main.0b9e35b7.css.map": "/prevision-react-app/static/css/main.0b9e35b7.css.map",
-    "main.b43d993b.js.map": "/prevision-react-app/static/js/main.b43d993b.js.map"
+    "main.600d741e.js.map": "/prevision-react-app/static/js/main.600d741e.js.map"
   },
   "entrypoints": [
     "static/css/main.0b9e35b7.css",
-    "static/js/main.b43d993b.js"
+    "static/js/main.600d741e.js"
   ]
 }
