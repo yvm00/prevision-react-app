@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/todo-app-react/static/css/main.84840791.css",
-    "main.js": "/todo-app-react/static/js/main.4a9f9711.js",
-    "static/media/bg.png": "/todo-app-react/static/media/bg.071cc82e10856e1a4722.png",
-    "static/media/forecast.png": "/todo-app-react/static/media/forecast.715e5473122fffce64f4.png",
-    "static/media/prof.png": "/todo-app-react/static/media/prof.62bdfde36bc5d3c56a8d.png",
-    "static/media/reg.png": "/todo-app-react/static/media/reg.63491e081a341e058be4.png",
-    "static/media/footer.png": "/todo-app-react/static/media/footer.30d8b7c76611d81577d2.png",
-    "static/media/ppl.png": "/todo-app-react/static/media/ppl.04663906bea827cb5552.png",
-    "static/media/gr.png": "/todo-app-react/static/media/gr.301f4a0acf6beb6548e2.png",
-    "static/media/results.png": "/todo-app-react/static/media/results.43c621f87ca66bf3538a.png",
-    "static/media/bootstrap-icons.woff?": "/todo-app-react/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/todo-app-react/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "static/media/exampleData.png": "/todo-app-react/static/media/exampleData.f793dc8f5fc4774ded3c.png",
-    "index.html": "/todo-app-react/index.html",
-    "main.84840791.css.map": "/todo-app-react/static/css/main.84840791.css.map",
-    "main.4a9f9711.js.map": "/todo-app-react/static/js/main.4a9f9711.js.map"
+    "main.css": "/prevision-react-app/static/css/main.0b9e35b7.css",
+    "main.js": "/prevision-react-app/static/js/main.600d741e.js",
+    "static/media/bg.png": "/prevision-react-app/static/media/bg.071cc82e10856e1a4722.png",
+    "static/media/forecast.png": "/prevision-react-app/static/media/forecast.715e5473122fffce64f4.png",
+    "static/media/prof.png": "/prevision-react-app/static/media/prof.62bdfde36bc5d3c56a8d.png",
+    "static/media/reg.png": "/prevision-react-app/static/media/reg.63491e081a341e058be4.png",
+    "static/media/footer.png": "/prevision-react-app/static/media/footer.30d8b7c76611d81577d2.png",
+    "static/media/ppl.png": "/prevision-react-app/static/media/ppl.04663906bea827cb5552.png",
+    "static/media/gr.png": "/prevision-react-app/static/media/gr.301f4a0acf6beb6548e2.png",
+    "static/media/results.png": "/prevision-react-app/static/media/results.43c621f87ca66bf3538a.png",
+    "static/media/bootstrap-icons.woff?": "/prevision-react-app/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/prevision-react-app/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/exampleData.png": "/prevision-react-app/static/media/exampleData.f793dc8f5fc4774ded3c.png",
+    "index.html": "/prevision-react-app/index.html",
+    "main.0b9e35b7.css.map": "/prevision-react-app/static/css/main.0b9e35b7.css.map",
+    "main.600d741e.js.map": "/prevision-react-app/static/js/main.600d741e.js.map"
   },
   "entrypoints": [
-    "static/css/main.84840791.css",
-    "static/js/main.4a9f9711.js"
+    "static/css/main.0b9e35b7.css",
+    "static/js/main.600d741e.js"
   ]
 }
