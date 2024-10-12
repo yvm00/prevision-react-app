@@ -35,9 +35,11 @@ function Profile() {
                                 </thead>
                                 <tbody >                               
                                     <tr>
-                                    <td ></td>
+                                    <td >
+                                        
+                                    </td>
                                     <td>
-                                        <Link className="button-link dark-text text-lowercase" href="#" >Cкачать</Link>
+                                        
                                     </td>
                                     </tr>
                                 </tbody>

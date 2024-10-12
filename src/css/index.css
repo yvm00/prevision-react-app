@@ -204,7 +204,7 @@ h1, h2, h5, p{
         height: 7rem;
    }
    .footer__content{
-        padding-top: 3rem;
+        padding-top: 2rem !important;
    }
    .out{
         padding: 0.5rem 1rem;

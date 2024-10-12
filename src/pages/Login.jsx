@@ -58,10 +58,10 @@ class LoginForm extends React.Component {
             </p>
             <a className="button-link ps-4 text-lowercase " href="#">забыли пароль?</a>
             <div className="button text-center mt-4 mt-lg-5 w-100" >
-                <button type="submit" href="/" className="button-input">войти</button>
+                <button type="submit"  className="button-input">войти</button>
             </div>
             <div className="ps-4">
-                <a className="button-link " href="/signup">зарегистрироваться</a>
+                <Link className="button-link " to="/signup">зарегистрироваться</Link>
             </div>
         </form>
       </div>

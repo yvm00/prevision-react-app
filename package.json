@@ -1,7 +1,7 @@
 {
   "name": "prevision-app",
   "version": "0.1.0",
-  "private": true,
+  "private": true,  
   "homepage": "https://yvm00.github.io/prevision-react-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "@types/jquery": "^3.5.31",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "vercel": "^37.6.3"
   }
 }

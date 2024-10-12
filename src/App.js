@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, HashRouter } from "react-router-dom";
 import { Header } from "./components/Header"; 
 
 import { Home } from "./pages/Home";
@@ -12,19 +12,20 @@ import { Edit } from "./pages/Edit";
 function App() {
     return (
          <>       
-            
-            <Router>                
-                <Routes>
-                    <Route exact path="/" element={ <Home /> } />
-                    <Route exact path="/home" element={ <Home /> } />
-                    <Route path="/forecast" element={ <Forecast /> } />
-                    <Route path="/profile" element={ <Profile /> } />
-                    <Route path="/edit" element={ <Edit /> } />
-                    <Route path="/login" element={ <Login /> } />
-                    <Route path="/signup" element={ <SignUp /> } />
-                    <Route path="/results" element={ <Results /> } />
-                </Routes>
-            </Router>
+           <HashRouter>           
+                < >                
+                    <Routes>
+                        <Route exact path="/" element={ <Home /> } />
+                        <Route exact path="/home" element={ <Home /> } />
+                        <Route path="/forecast" element={ <Forecast /> } />
+                        <Route path="/profile" element={ <Profile /> } />
+                        <Route path="/edit" element={ <Edit /> } />
+                        <Route path="/login" element={ <Login /> } />
+                        <Route path="/signup" element={ <SignUp /> } />
+                        <Route path="/results" element={ <Results /> } />
+                    </Routes>
+                </>
+            </HashRouter> 
          </>
     )
 }

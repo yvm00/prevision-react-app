@@ -15,7 +15,7 @@ class LogoutButton extends React.Component {
     handleClick(event) {
       event.preventDefault();
       Userfront.logout({ 
-        redirect: "/home" 
+        redirect: "/forecast" 
     });
     }
   
@@ -34,8 +34,6 @@ class LogoutButton extends React.Component {
 
 function Header() {
 
-
-    const userData = JSON.stringify(Userfront.user, null, 2);
 
     return(
         <header className="d-flex header" >

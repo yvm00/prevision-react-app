@@ -29,7 +29,7 @@ return (
                     </div>
                     <div class="col results__col col-md-4 col-lg-6 results__actions text-start text-md-end te pt-3 pt-sm-5">
                          <a class="button button-transparent me-4 me-md-0 me-lg-4 p-3 " href="{% url 'add_to_profile' project.pk %}">сохранить в лк</a>
-                         <a class="button button-transparent p-3 " href="{{ project.pdf.url }}" download="{{ project.pdf.name }}">скачать pdf</a>
+                         <a class="button button-transparent p-3 " href="/login" download="{{ project.pdf.name }}">скачать pdf</a>
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-sm-2 mt-sm-3">

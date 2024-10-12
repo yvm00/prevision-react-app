@@ -1,14 +1,12 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { useState, useEffect } from "react"
+import { useEffect } from "react"
 import { useParallax } from "react-scroll-parallax";
-import { ExcelRenderer} from 'react-excel-renderer';
+import { Link } from "react-router-dom";
 import WOW from 'wowjs';
 
 function Forecast() {
 
-    const [rows, setRows] = useState ([]);
-    const [cols, setCols] = useState([]);
 
     useEffect(() => {
         new WOW.WOW({
@@ -122,7 +120,7 @@ function Forecast() {
                             </div>
                         </form>
                         <div className="pt-4">
-                        <a className="button-link dark-text"  href="/results">пример готового прогноза</a>
+                        <Link className="button-link dark-text"  to="/results">пример готового прогноза</Link>
                         </div>
                        
                     </div>
