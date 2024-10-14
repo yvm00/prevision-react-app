@@ -22,7 +22,7 @@
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 # 🔎Introduction
-This is a frontend part which based on React. You can see the whole project <a align="center" href="https://prevision-app-react.vercel.app/">here</a> .
+This is a frontend part which based on React. You can see the whole project <a align="center" href="https://github.com/yvm00/prevision-django-app">here</a> .
 
 # ✨About this project
 **Prevision** is a fully responsive website that can help to automate the process of forecasting the cost of goods, which will allow entrepreneurs to assess possible risks when doing business.
